@@ -1,3 +1,4 @@
+import image1 from "../assets/img/Reactlogo.png"
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 
@@ -37,7 +38,7 @@ export const Skills = () => {
                             <p></p>
                             <div className="skill-slider">
                                 <div className="item">
-                                    <img src="Reactlogo.png"/>
+                                    <img src={image1}/>
                                     <h5>React</h5>
                                 </div>
 
