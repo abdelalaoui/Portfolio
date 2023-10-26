@@ -5,6 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -46,6 +47,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
+  
 
   return (
     <section className="banner" id="home">
@@ -58,7 +60,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Abdellah`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Software engineer with a passion for software development and new technologies.</p>
-                  <button onClick={() => console.log('connect')}>Download Resume <ArrowRightCircle size={25} /></button>
+                  <a href="resume.pdf"
+                  download="A.A-Resume.pdf">
+                  <button onClick={() => ('')} >Download Resume <ArrowRightCircle size={25} /></button>
+                  </a>
               </div>}
             </TrackVisibility>
           </Col>
