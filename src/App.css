@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1.5em;
   width: 96%;
 }
+
+.banner a {
+  text-decoration: none;
+}
 .banner button {
   color: #fff;
   font-weight: 700;
@@ -85,6 +89,7 @@ h1, h2, h3, h4, h5, h6{
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  
 }
 .banner button svg {
   font-size: 25px;

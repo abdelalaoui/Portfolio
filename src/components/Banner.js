@@ -62,7 +62,7 @@ export const Banner = () => {
                   <p>Software engineer with a passion for software development and new technologies.</p>
                   <a href="resume.pdf"
                   download="A.A-Resume.pdf">
-                  <button onClick={() => ('')} >Download Resume <ArrowRightCircle size={25} /></button>
+                  <button  onClick={() => ('')} >Download Resume <ArrowRightCircle size={25} /></button>
                   </a>
               </div>}
             </TrackVisibility>
