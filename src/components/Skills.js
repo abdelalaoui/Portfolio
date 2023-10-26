@@ -33,7 +33,7 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                                Skillsx
                             </h2>
                             <p></p>
                             <div className="skill-slider">
