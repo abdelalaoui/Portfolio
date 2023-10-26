@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 
 
+
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
@@ -36,43 +37,43 @@ export const Skills = () => {
                             <p></p>
                             <div className="skill-slider">
                                 <div className="item">
-                                    <img src="https://images-ext-1.discordapp.net/external/MIwQTfo1j9eTzkXLkoTFUJWAMKhpvzHe8usoY_V1n98/https/cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png?width=936&height=936" alt="Image"/>
+                                    <img src="Reactlogo.png"/>
                                     <h5>React</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"/>
+                                    <img src="JavaScript.png"/>
                                     <h5>JavaScript</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"/>
+                                    <img src="python.png"/>
                                     <h5>Python</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png"/>
+                                    <img src="Java-Logo.png"/>
                                     <h5>Java</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png"/>
+                                    <img src="mysql.png"/>
                                     <h5>MySql</h5>
                                 </div>
 
                                 
                                 <div className="item">
-                                    <img src="https://static-00.iconduck.com/assets.00/docker-icon-2048x1753-uguk29a7.png"/>
+                                    <img src="dockerlogo.png"/>
                                     <h5>Docker</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"/>
+                                    <img src="Git.png"/>
                                     <h5>Git</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png"/>
+                                    <img src="Cpp.png"/>
                                     <h5>C++</h5>
                                 </div>
                                 
